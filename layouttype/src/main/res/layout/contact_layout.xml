@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        app:srcCompat="@drawable/people" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="126dp"
+            android:layout_height="32dp"
+            android:text="Name: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="282dp"
+            android:layout_height="32dp"
+            android:text="Tony Stark"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organisation: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Mirea"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_call"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="375dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="95dp"
+            android:text="+7(911)111-11-11 (Mobile)"
+            android:layout_marginTop="5dp"
+            android:textSize="19dp"
+            />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="261dp"
+        android:layout_marginTop="30dp"
+        android:text="Save" />
+
+
+</LinearLayout>
